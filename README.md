@@ -55,12 +55,12 @@ A Django-based Applicant Tracking System for recruiters to manage job applicatio
 
 ## API Endpoints
 
-- `POST /api/candidates/` - Create a new candidate
-- `GET /api/candidates/` - List all candidates
-- `GET /api/candidates/{id}/` - Retrieve a specific candidate
-- `PUT /api/candidates/{id}/` - Update a candidate
-- `DELETE /api/candidates/{id}/` - Delete a candidate
-- `GET /api/candidates/search/?q={query}` - Search candidates by name
+- `POST /api/candidates` - Create a new candidate
+- `GET /api/candidates` - List all candidates
+- `GET /api/candidates/{id}` - Retrieve a specific candidate
+- `PUT /api/candidates/{id}` - Update a candidate
+- `DELETE /api/candidates/{id}` - Delete a candidate
+- `GET /api/candidates/search?query={query}` - Search candidates by name
 
 ## Search Functionality
 
